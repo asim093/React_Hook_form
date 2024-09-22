@@ -1,0 +1,61 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_form{
+  background-image: url('https://wonderfulengineering.com/wp-content/uploads/2014/07/Landscape-wallpapers-31.jpg');;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover  ;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  border: 1px solid black;
+}
+
+html {
+  font-size: 16px;
+}
+
+.main_form form{
+  backdrop-filter: blur(10px);
+  font-size: 1.2rem; 
+  height: 400px;
+  min-width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /* gap: 10px; */
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.main_form form input{
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background:none;
+  border-bottom: 1px solid black;
+}
+
+form input::placeholder{
+  font-size: 18px;
+  color: white;
+}
+
+form button{
+  width: 90%;
+  height: 40px;
+  background-color: rgb(237, 105, 105) ;
+color: white;
+font-size: 18px;}
+
